@@ -1,1 +1,1 @@
-include chargebee/ssl/ca-certs.crt
+include chargebee_v2/ssl/ca-certs.crt

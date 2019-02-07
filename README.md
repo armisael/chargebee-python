@@ -49,3 +49,4 @@ simply:
   `chargebee_v2`
 - replace all the occurrences of `from chargebee.` with `from chargebee_v2.`;
   the easiest way to do it is to open PyCharm and perform a "Replace in path".
+- also check that `MANIFEST.in` points to the new folder that contains `ca-certs.crt`
