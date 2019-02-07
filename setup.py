@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 import sys
 import os
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'chargebee'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'chargebee_v2'))
 import version
 
 requires = []
@@ -17,7 +17,7 @@ except ImportError:
         requires.append('simplejson')  # For Python==2.5
 
 setup(
-    name='chargebee',
+    name='chargebee_v2',
     version=version.VERSION,
     author='ChargeBee',
     author_email='support@chargebee.com',

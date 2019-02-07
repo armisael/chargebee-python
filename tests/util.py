@@ -1,6 +1,6 @@
 import unittest
 
-from chargebee import util
+from chargebee_v2 import util
 
 
 class UtilTest(unittest.TestCase):
