@@ -14,7 +14,7 @@ the original project.
 In your `requirements.txt`:
 ```
 chargebee==1.6.3
-https://github.com/armisael/chargebee-python/tarball/ca2945a87c25e25b5bb117617ddbd2153bd92057  # v2.6.2
+https://github.com/armisael/chargebee-python/tarball/e352fc6c444d7990b767d99336111d7166bdfa17  # v2.6.2
 ```
 
 Then simply configure both versions with the same parameters:
