@@ -24,7 +24,7 @@ setup(
     url='https://apidocs.chargebee.com/docs/api?lang=python',
     description='Python wrapper for the ChargeBee Subscription Billing API',
     packages=find_packages(exclude=["tests"]),
-    package_data={'chargebee': ['ssl/*.crt']},
+    package_data={'chargebee_v2': ['ssl/*.crt']},
     install_requires=requires,
     test_suite='tests',
 )
